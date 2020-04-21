@@ -44,6 +44,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closure is the end of a scope. 
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -65,9 +66,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Closure is used on line 56 and 57 indicated by a closing bracket '}'.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+Name is always the same because we are passing the name "Dan". The newRoll variable will change.
 c. What is the lexical scope of `newRoll`? 
-
+The lexical scope for newRoll is function()
 ### Task 3 - Stretch Goals
 
 After you have completed the requirements, **create** a new file called `stretch.js` and practice more with closures. There are no tests for these problems.
